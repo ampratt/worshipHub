@@ -1,0 +1,44 @@
+{
+  "name": "worshipHub",
+  "version": "1.0.0",
+  "description": "A one stop center to plan musical worship sets, songs and team members",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/babel-node ./src/",
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "test": "NODE_ENV=production mocha './tests/**/*.spec.js' --compilers js:babel-core/register"
+  },
+  "author": "Aaron Pratt",
+  "license": "",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "immutability-helper": "^2.2.0",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.18.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.3.2",
+    "react-redux": "^5.0.4",
+    "react-router": "^3.0.4",
+    "react-router-redux": "^4.0.8",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^1.4.6"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.25.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.10.1",
+    "optimize-css-assets-webpack-plugin": "^1.3.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
